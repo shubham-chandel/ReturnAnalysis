@@ -30,7 +30,3 @@ FEATURE_RELATED
 
 I am very upset. Since morning i am not able to switch on device
 DEVICE_POWER
-
-def predict(sent):
-	return Counter(obj.data_frame.return_sub_reason[obj.keywordsToIdx[process.extractOne(' '.join([word.lower() for word in sent.split() if not word.lower() in STOP]), obj.keywords)[0]]]).most_common()[0][0]
-

@@ -2,7 +2,7 @@
 # @Author: shubham.chandel
 # @Date:   2016-08-11 12:14:30
 # @Last Modified by:   Shubham Chandel
-# @Last Modified time: 2016-08-18 13:53:55
+# @Last Modified time: 2016-08-18 14:15:15
 
 import pickle
 from pprint import pprint
@@ -11,11 +11,12 @@ from helper import *
 from keywords import generate_keywords
 from cluster import cluster_documents
 from incorrect import incorrect_reasons
+from predict import predict
 
 DFUNIQE = '/Users/shubham.chandel/Documents/ReturnAnalysis/pickle/data_frame_uniq_eng'
 DFCSV = '/Users/shubham.chandel/Documents/ReturnAnalysis/data/return_all.csv'
 
-class ReturnReasons:
+class ReturnAnalysis:
 	"""Generate best set of return reasons from customer’s return comment"""
 	
 	def __init__(self, vertical="Handsets"):
@@ -64,12 +65,15 @@ class ReturnReasons:
 	def incorrectAnnoatedCluster(self, clusterID):
 		self.incorrectdf, self.reason = incorrect_reasons(self.clusters, self.data_frame, self.keywordsToIdx, clusterID=clusterID)
 	
+	def predictReturn(self, comment):
+		print(predict(comment, self.keywords, self.keywordsToIdx, self.data_frame))
+	
 	def save(self, obj, name):
 		pickle.dump(obj, open(name+'.pk', 'wb'))
 
 
 def main():
-	obj = ReturnReasons('Handsets')
+	obj = ReturnAnalysis('Handsets')
 	obj.loadData()
 	obj.generateKeywords()
 	obj.clusterKeywords()
