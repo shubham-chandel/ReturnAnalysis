@@ -85,17 +85,16 @@ Identify return comments which were Incorectly Annotated and predict correct cat
 >>> obj.incorrectAnnoated()
 >>> obj.incorectdf
 
-                                       return_comments          return_sub_reason             return_predicted_reason
-8                                         touch screen  EXTERNAL_KEYS_NOT_WORKING                   TOUCH_NOT_WORKING
-36                              video quality very bad          OVERHEATING_ISSUE                        CAMERA_ISSUE
-55                                      camera clarity          DUPLICATE_PRODUCT                        CAMERA_ISSUE
-233  			  mobile hanging also and getting m...             OS_MALFUNCTION                       HANGING_ISSUE
-256       front camera not working and headset missing               CAMERA_ISSUE  MISSING_ACCESSORY and CAMERA_ISSUE
-360                                     battery backup          DEFECTIVE_CHARGER                       BATTERY_ISSUE
-382  camera clarity was not good and not working pr...        DEFECTIVE_ACCESSORY                        CAMERA_ISSUE
-600  						  battery backup very poor          DUPLICATE_PRODUCT                       BATTERY_ISSUE
-704                          mobile hanging very often          OVERHEATING_ISSUE                       HANGING_ISSUE
-707                           camera quality very poor          DUPLICATE_PRODUCT                        CAMERA_ISSUE
+                                 return_comments          return_sub_reason             return_predicted_reason
+8                                   touch screen  EXTERNAL_KEYS_NOT_WORKING                   TOUCH_NOT_WORKING
+36                        video quality very bad          OVERHEATING_ISSUE                        CAMERA_ISSUE
+55                                camera clarity          DUPLICATE_PRODUCT                        CAMERA_ISSUE
+233 		mobile hanging also and getting m...             OS_MALFUNCTION                       HANGING_ISSUE
+256 front camera not working and headset missing               CAMERA_ISSUE  MISSING_ACCESSORY and CAMERA_ISSUE
+360                               battery backup          DEFECTIVE_CHARGER                       BATTERY_ISSUE
+60 						battery backup very poor          DUPLICATE_PRODUCT                       BATTERY_ISSUE
+704                    mobile hanging very often          OVERHEATING_ISSUE                       HANGING_ISSUE
+707                     camera quality very poor          DUPLICATE_PRODUCT                        CAMERA_ISSUE
 ...
 
 ```
