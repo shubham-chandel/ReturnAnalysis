@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # @Author: shubham.chandel
 # @Date:   2016-08-11 12:14:30
-# @Last Modified by:   shubham.chandel
-# @Last Modified time: 2016-08-18 11:47:50
+# @Last Modified by:   Shubham Chandel
+# @Last Modified time: 2016-08-18 13:53:55
 
 import pickle
 from pprint import pprint
@@ -59,6 +59,7 @@ class ReturnReasons:
 	
 	def incorrectAnnoated(self):
 		self.incorrectdf = incorrect_reasons(self.clusters, self.data_frame, self.keywordsToIdx)
+		pprint(self.incorrectdf[['return_comments', 'return_predicted_reason']].values.tolist(), open('incorrect-annoated.txt', 'w'))
 	
 	def incorrectAnnoatedCluster(self, clusterID):
 		self.incorrectdf, self.reason = incorrect_reasons(self.clusters, self.data_frame, self.keywordsToIdx, clusterID=clusterID)
