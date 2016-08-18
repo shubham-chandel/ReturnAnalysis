@@ -2,10 +2,13 @@
 # @Author: shubham.chandel
 # @Date:   2016-08-11 12:14:30
 # @Last Modified by:   Shubham Chandel
-# @Last Modified time: 2016-08-18 14:15:15
+# @Last Modified time: 2016-08-18 15:44:34
 
 import pickle
 from pprint import pprint
+
+import pandas as pd
+import numpy as np
 
 from helper import *
 from keywords import generate_keywords
@@ -68,15 +71,17 @@ class ReturnAnalysis:
 	def predictReturn(self, comment):
 		print(predict(comment, self.keywords, self.keywordsToIdx, self.data_frame))
 	
-	def save(self, obj, name):
-		pickle.dump(obj, open(name+'.pk', 'wb'))
+	def save(self):
+		pickle.dump(self, open(name+'.pk', 'wb'))
+		print('Model save sucessful.')
+
 
 
 def main():
 	obj = ReturnAnalysis('Handsets')
 	obj.loadData()
 	obj.generateKeywords()
-	obj.clusterKeywords()
+	obj.clusterKeywords(file='')
 	return obj
 
 if __name__ == '__main__':

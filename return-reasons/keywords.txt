@@ -1,0 +1,8 @@
+['received empty box',
+ 'poor battery backup',
+ 'battery backup poor',
+ 'back cover missing',
+ 'camera quality poor',
+ 'head phone missing',
+ 'network connectivity issue',
+ 'different colour']

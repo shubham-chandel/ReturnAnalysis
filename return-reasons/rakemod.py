@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # @Author: shubham.chandel
 # @Date:   2016-08-01 12:00:01
-# @Last Modified by:   shubham.chandel
-# @Last Modified time: 2016-08-17 20:38:55
+# @Last Modified by:   Shubham Chandel
+# @Last Modified time: 2016-08-18 15:01:28
 
 import re
 import operator
@@ -144,7 +144,7 @@ def generate_candidate_keyword_scores(phrase_list, word_score, min_keyword_frequ
 
 
 class Rake(object):
-	def __init__(self, stop_words_path, min_char_length=1, max_words_length=5, __min_keyword_frequency=1):
+	def __init__(self, stop_words_path, min_char_length=1, max_words_length=5, min_keyword_frequency=1):
 		self.__stop_words_path = stop_words_path
 		self.__stop_words_pattern = build_stop_word_regex(stop_words_path)
 		self.__min_char_length = min_char_length
