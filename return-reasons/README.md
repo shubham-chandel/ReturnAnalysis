@@ -52,21 +52,9 @@ Generate return reasons from (unsupervised) learning of users return comments.
 
 #### Parameters
 
-- `minChar`
-	- Minimum number of characters required for keyword to be valid
-	- Type: int
-	- Default: 3
-
-- `maxWords`
-	- Maximum number of words possible in a keyword
-	- Type: int
-	- Default: 3
-
-- `minFrequency`
-	- Minimum number of times keyword should appear
-	- Type: int
-	- Default: 15
-
+- `minChar`: Minimum number of characters required for keyword to be valid
+- `maxWords`: Maximum number of words possible in a keyword
+- `minFrequency`: Minimum number of times keyword should appear
 
 ### Best set of Return Reasons 
 
