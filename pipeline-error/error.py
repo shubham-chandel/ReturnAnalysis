@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # @Author: shubham.chandel
 # @Date:   2016-08-12 16:20:44
-# @Last Modified by:   shubham.chandel
-# @Last Modified time: 2016-08-18 11:48:09
+# @Last Modified by:   Shubham Chandel
+# @Last Modified time: 2016-08-18 16:27:26
 
 import pickle
 from pprint import pprint
@@ -10,7 +10,8 @@ from pprint import pprint
 import pandas as pd
 import matplotlib.pyplot as plt
 
-DFPATH = '/Users/shubham.chandel/Documents/ReturnAnalysis/pickle/data_frame'
+# DFPATH = '/Users/shubham.chandel/Documents/ReturnAnalysis/pickle/data_frame'
+DFPATH = 'data_frame'
 
 class PipelineError:
 	"""Statistics on return-reasons not listed"""
@@ -35,7 +36,10 @@ class PipelineError:
 	
 	def plot(self):
 		pd.DataFrame(pd.to_datetime(self.notListedFrame().return_date_time).apply(lambda x: x.date())).groupby('return_date_time').size().plot()
-		plt.show(0)
+		plt.title('Count non-listed reasons vs Time')
+		plt.ylabel('Count')
+		plt.xlabel('Time')
+		plt.show()
 	
 	def count(self):
 		self.frequency = self.notListedFrame().groupby('return_sub_reason').size().sort_values()

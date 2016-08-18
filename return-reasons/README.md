@@ -26,10 +26,7 @@ Load data from specified `csv` or `pickle` format.
 
 #### Parameters
 
-- Return Category
-	- The return category to be analyzed
-	- Type: string
-	- Default: 'Handsets'
+- `Return Category`: Return category to be analyzed.
 
 ### Generate Return Reasons
 
