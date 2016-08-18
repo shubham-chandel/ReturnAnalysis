@@ -24,5 +24,5 @@ cd ReturnAnalysis
 
 ## Usage
 
-Refer [return-reasons](https://github.com/shubham-chandel/ReturnAnalysis/tree/master/return-reasons) and [pipeline-error](https://github.com/shubham-chandel/ReturnAnalysis/tree/master/pipeline-error) for individual usage.
+Refer [return-reasons](https://github.com/shubham-chandel/ReturnAnalysis/tree/master/return-reasons#return-analysis) and [pipeline-error](https://github.com/shubham-chandel/ReturnAnalysis/tree/master/pipeline-error) for individual usage.
 
