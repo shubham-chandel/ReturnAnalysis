@@ -12,6 +12,8 @@
 
 ### Count non-listed reasons
 
+Reasons generated on Bigfoot but not present in [oficial doc](https://docs.google.com/a/flipkart.com/spreadsheets/d/1zkcTsORgGc8Ll1mw8ZJsozpvzIvTUWlqzbSIi1fiSqE/edit?usp=sharing) for Handsets category.
+
 ```python
 >>> obj.count()
 	BULK_ORDER                            37688
@@ -40,6 +42,8 @@
 
 ### Plot Count vs Time graph
 
+Plot shows count of not listed return reasons (Handsets) for the past year.
+
 ```python
 >>> obj.plot()
 ```
@@ -48,6 +52,8 @@
 
 
 ### Change Vertical
+
+Change the vertical for further analysis as above.
 
 ```python
 >>> obj.changeVertical('Books')
