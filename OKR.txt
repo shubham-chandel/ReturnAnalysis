@@ -1,0 +1,10 @@
+
+P0: 
+- Generate best set of return reasons from user return comment
+- Identify incorrectly annotated return text
+- Error in pipeline resulting in incorrect return reasons
+P1:
+- Auto classify return comment to best return reason 
+P2:
+- Pipeline for data cleanup and P0 
+

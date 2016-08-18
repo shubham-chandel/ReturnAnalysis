@@ -1,0 +1,9 @@
+>>> pprint(predict(count_vectorizer, logreg, test_data))
+0.591174410459958
+
+>>> pprint(predict(n_gram_vectorizer, logreg, test_data))
+0.57191221106700907
+
+>>> classify(tf_vect, train_data_features, train_data, test_data)
+0.591641372869
+

@@ -1,0 +1,27 @@
+# data_frame.loc[data_frame.return_comments.apply(lambda x: 'amazon' in x.lower() )][['return_reason', 'return_comments']].groupby('return_reason').size()
+
+
+return_reason
+COLOR_FIT_SIZE_ISSUE                   1
+COLOR_SIZE_ISSUE                       8
+CUSTOMER_REMORSE                      57
+DAMAGED_PRODUCT                        3
+DEFECTIVE_PRODUCT                      8
+ITEM_NOT_AS_DESCRIBED                  8
+MISSHIPMENT                           19
+MISSING_ITEM                          10
+PERFORMANCE_ISSUES                    12
+QUALITY_ISSUE                         22
+SERVICE_CENTRE_DENIED                  2
+SOFTWARE_ISSUES                        1
+STYLE_FIT_ISSUE                        2
+customer_cancelled_not_interested     11
+customer_not_reachable                 2
+expensive_now                          1
+long_delivery_promise                  1
+non_serviceable                        1
+order_cancelled                      390
+others                                 7
+purchased_elsewhere                    1
+purchased_mistake                      1
+

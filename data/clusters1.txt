@@ -1,0 +1,252 @@
+0
+[['display', 'screen', 'faulty'],
+ ['display', 'screen', 'damaged'],
+ ['screen', 'defective'],
+ ['display', 'defective'],
+ ['screen', 'display'],
+ ['display', 'screen'],
+ ['screen', 'faulty'],
+ ['display', 'faulty']]
+1
+[['touch', 'screen', 'working'],
+ ['touch', 'screen', 'problem'],
+ ['touch', 'issue'],
+ ['screen', 'touch'],
+ ['touch', 'screen'],
+ ['screen', 'problem'],
+ ['touch', 'problem']]
+2
+[['issue', 'device', 'power'], ['device', 'power']]
+3
+[['camera', 'related', 'defect'],
+ ['camera', 'flash', 'defective'],
+ ['camera', 'related', 'defect'],
+ ['camera', 'related', 'defect'],
+ ['camera', 'defect'],
+ ['camera', 'defective'],
+ ['camera', 'flash']]
+4
+[['unable', 'detect', 'sim'],
+ ['unable', 'detect', 'sim'],
+ ['unable', 'detect'],
+ ['detect', 'sim']]
+5
+[['speaker', 'working', 'expected'],
+ ['speaker', 'working', 'expected'],
+ ['speaker', 'working']]
+6
+[['memory', 'card', 'slot', 'issue'],
+ ['memory', 'card', 'slot'],
+ ['sim', 'card', 'slot'],
+ ['sim', 'slot', 'defective'],
+ ['memory', 'card'],
+ ['sim', 'card'],
+ ['sim', 'slot']]
+7
+[['charger', 'item', 'defective'],
+ ['battery', 'defective'],
+ ['defective', 'item'],
+ ['item', 'defective'],
+ ['charger', 'defective']]
+8
+[['defective', 'accessory'], ['defective', 'accessory']]
+9
+[['operating', 'system', 'issue'], ['operating', 'system']]
+10
+[['feature', 'related', 'issue'],
+ ['network', 'connectivity', 'related', 'issue'],
+ ['network', 'related', 'issue'],
+ ['network', 'connectivity', 'issue'],
+ ['network', 'connectivity', 'problem'],
+ ['network', 'connectivity'],
+ ['connectivity', 'problem'],
+ ['network', 'issue'],
+ ['network', 'problem']]
+11
+[['item', 'freezing', 'hanging'], ['item', 'freezing'], ['item', 'hanging']]
+13
+[['item', 'dead', 'arrival'], ['item', 'dead'], ['dead', 'arrival']]
+14
+[['phone', 'damaged'], ['phone', 'damage']]
+15
+[['scratches', 'phone'], ['scratches', 'phone']]
+16
+[['sim', 'tray', 'damaged'], ['sim', 'tray']]
+17
+[['damaged', 'back', 'panel'], ['back', 'panel']]
+18
+[['available', 'lower', 'price'],
+ ['low', 'price'],
+ ['lower', 'price'],
+ ['cost', 'high'],
+ ['high', 'cost'],
+ ['price', 'high'],
+ ['high', 'price']]
+19
+[['ordered', 'mistake'], ['mistake', 'ordered'], ['ordered', 'mistake']]
+20
+[['received', 'different', 'item'], ['received', 'item']]
+21
+[['product', 'missing'], ['product', 'missing'], ['missing', 'product']]
+22
+[['charger', 'missing'], ['battery', 'missing'], ['charger', 'missing']]
+23
+[['accessory', 'missing'], ['accessory', 'missing']]
+24
+[['item', 'description', 'incorrect'], ['item', 'description']]
+25
+[['finger', 'print', 'scanner'],
+ ['finger', 'print', 'sensor'],
+ ['finger', 'print'],
+ ['finger', 'sensor']]
+26
+[['smart', 'check', 'test'], ['smart', 'check', 'link'], ['smart', 'check']]
+27
+[['received', 'white', 'color'],
+ ['white', 'color'],
+ ['white', 'colour'],
+ ['black', 'color']]
+28
+[['wrong', 'item', 'selected'], ['wrong', 'item']]
+29
+[['received', 'empty', 'box'], ['empty', 'box']]
+30
+[['sending', 'link', 'customer'],
+ ['link', 'send'],
+ ['send', 'link'],
+ ['link', 'sending'],
+ ['sending', 'link']]
+31
+[['back', 'cover', 'missing'], ['back', 'cover']]
+32
+[['ear', 'phone', 'missing'],
+ ['head', 'set', 'missing'],
+ ['head', 'phone', 'missing'],
+ ['ear', 'phone'],
+ ['head', 'set'],
+ ['head', 'phone']]
+33
+[['speaker', 'volume', 'low'], ['low', 'volume'], ['speaker', 'volume']]
+34
+[['change', 'shipping', 'address'],
+ ['shipping', 'address'],
+ ['change', 'address'],
+ ['address', 'change']]
+35
+[['phone', 'hanging', 'lot'],
+ ['hanging', 'lot'],
+ ['mobile', 'hanging'],
+ ['phone', 'hanging']]
+36
+[['delivery', 'time', 'long'],
+ ['long', 'time'],
+ ['time', 'long'],
+ ['delivery', 'time'],
+ ['time', 'delivery'],
+ ['short', 'time']]
+37
+[['order', 'place', 'mistake'],
+ ['place', 'order'],
+ ['mistake', 'order'],
+ ['order', 'mistake']]
+38
+[['refund', 'money', 'back'],
+ ['cash', 'back'],
+ ['money', 'back'],
+ ['back', 'money'],
+ ['money', 'refund'],
+ ['refund', 'money']]
+39
+[['shipment', 'lost', 'transit'], ['lost', 'transit']]
+40
+[['poor', 'mobile'],
+ ['poor', 'phone'],
+ ['bad', 'mobile'],
+ ['bad', 'phone'],
+ ['good', 'mobile'],
+ ['mobile', 'good'],
+ ['good', 'phone'],
+ ['phone', 'good'],
+ ['nice', 'phone']]
+41
+[['automatically', 'switched'],
+ ['automatically', 'switch'],
+ ['automatic', 'switch']]
+42
+[['poor', 'product'], ['bad', 'product'], ['good', 'product']]
+43
+[['screen', 'broken'], ['broken', 'screen'], ['screen', 'cracked']]
+44
+[['wrong', 'address'], ['address', 'wrong']]
+45
+[['phone', 'switched'],
+ ['mobile', 'switch'],
+ ['phone', 'switch'],
+ ['phone', 'switching']]
+46
+[['mobile', 'battery'], ['phone', 'battery'], ['mobile', 'charger']]
+47
+[['poor', 'service'], ['bad', 'service'], ['good', 'service']]
+48
+[['audio', 'jack'], ['headphone', 'jack']]
+49
+[['mobile', 'defective'], ['phone', 'defective']]
+50
+[['display', 'issue'], ['display', 'problem']]
+51
+[['mobile', 'missing'], ['handset', 'missing']]
+52
+[['mobile', 'display'], ['phone', 'display']]
+53
+[['mobile', 'speaker'], ['phone', 'speaker']]
+54
+[['mobile', 'touch'], ['phone', 'touch']]
+55
+[['battery', 'heating'], ['heating', 'battery']]
+56
+[['request', 'refund'], ['refund', 'request']]
+57
+[['front', 'camera'], ['front', 'cam']]
+58
+[['mobile', 'dead'], ['dead', 'phone'], ['phone', 'dead']]
+59
+[['quality', 'product'], ['product', 'quality']]
+60
+[['replace', 'mobile'], ['replace', 'phone']]
+61
+[['change', 'mobile'], ['change', 'phone']]
+62
+[['defective', 'product'], ['product', 'defective']]
+63
+[['personal', 'issue'], ['personal', 'problem']]
+64
+[['exchange', 'mobile'], ['exchange', 'phone']]
+65
+[['mobile', 'return'], ['return', 'mobile'], ['return', 'phone']]
+66
+[['item', 'missing'], ['missing', 'item']]
+67
+[['mobile', 'performance'], ['phone', 'performance']]
+68
+[['bad', 'item'], ['good', 'item']]
+69
+[['earphone', 'missing'], ['headset', 'missing'], ['headphone', 'missing']]
+70
+[['resolve', 'problem'], ['solve', 'problem']]
+71
+[['late', 'delivery'], ['delivery', 'late']]
+72
+[['order', 'cancel'], ['cancel', 'order']]
+73
+[['proper', 'working'],
+ ['working', 'proper'],
+ ['work', 'proper'],
+ ['proper', 'work'],
+ ['working', 'correctly'],
+ ['working', 'properly'],
+ ['properly', 'working'],
+ ['work', 'properly']]
+74
+[['delay', 'delivery'], ['delivery', 'delay']]
+75
+[['good', 'working'], ['working', 'good'], ['good', 'work']]
