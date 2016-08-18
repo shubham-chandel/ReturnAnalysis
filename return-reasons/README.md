@@ -2,7 +2,7 @@
 
 ## Usage
 
-```
+```python
 >>> from analysis import ReturnAnalysis
 ```
 
@@ -10,7 +10,7 @@
 
 Load data from specified `csv` or `pickle` format.
 
-```
+```python
 >>> obj = ReturnAnalysis('Handsets')
 
 >>> obj.loadData(file='returns.csv')
@@ -35,7 +35,7 @@ Load data from specified `csv` or `pickle` format.
 
 Generate return reasons from (unsupervised) learning of users return comments.
 
-```
+```python
 >>> obj.generateKeywords(minChar=3, maxWords=3, minFrequency=15)
 >>> obj.keywords
 
@@ -72,7 +72,7 @@ Generate return reasons from (unsupervised) learning of users return comments.
 
 Cluster keywords to form best set of return reasons.
 
-```
+```python
 >>> obj.clusterKeywords(algorithm='doc2vec')
 >>> obj.clusters
 
@@ -96,7 +96,7 @@ Cluster keywords to form best set of return reasons.
 
 Identify return comments which were Incorectly Annotated and predict correct category.
 
-```
+```python
 >>> obj.incorrectAnnoated()
 >>> obj.incorectdf
 
@@ -119,7 +119,7 @@ Identify return comments which were Incorectly Annotated and predict correct cat
 
 Given a (new) return comment, predict it's return category.
 
-```
+```python
 >>> obj.predictReturn('The phone is hanging too much')
 	HANGING_ISSUE
 
@@ -147,7 +147,7 @@ Given a (new) return comment, predict it's return category.
 
 Save model for future use.
 
-```
+```python
 >>> obj.save()
 	Model save sucessful.
 ```
