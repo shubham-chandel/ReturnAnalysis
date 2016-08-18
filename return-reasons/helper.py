@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 # @Author: shubham.chandel
 # @Date:   2016-07-14 11:59:06
-# @Last Modified by:   shubham.chandel
-# @Last Modified time: 2016-08-02 11:57:50
+# @Last Modified by:   Shubham Chandel
+# @Last Modified time: 2016-08-18 14:37:39
 # @Description: Module - Language analysis helper functions
 
 from string import punctuation
 from random import shuffle
 
-from textblob import TextBlob
+# from textblob import TextBlob
 
 from nltk.corpus import words
 from nltk import word_tokenize, pos_tag
